@@ -507,14 +507,14 @@ calculoPorcentaje:function(){
 
   beforeMount: function () {
     var config = {
-    apiKey: "AIzaSyAb3it7mhJqhPPqJqaORnNkNbB9TyWRKpM",
-    authDomain: "vue-database-76fe6.firebaseapp.com",
-    databaseURL: "https://vue-database-76fe6.firebaseio.com",
-    projectId: "vue-database-76fe6",
-    storageBucket: "vue-database-76fe6.appspot.com",
-    messagingSenderId: "921191288500",
-    appId: "1:921191288500:web:d4fdf021cce2bfbdf6d1e1",
-    measurementId: "G-9LDKPVXXD3"
+    apiKey: "YOUR API KEY",
+    authDomain: "COPI DATA",
+    databaseURL: "COPI DATA",
+    projectId: "COPI DATA",
+    storageBucket: "COPI DATA",
+    messagingSenderId: "COPI DATA",
+    appId: "COPI DATA:web:COPI DATA",
+    measurementId: "COPI DATA"
     };
     firebase.initializeApp(config);
     this.db = firebase.firestore();
